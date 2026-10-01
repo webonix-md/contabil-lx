@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CONTABIL — бухгалтерия для резидентов Moldova IT Park</title>
+<meta name="description" content="Полная бухгалтерия для IT-компаний и резидентов Moldova IT Park: регистрация в ASP и IT Park, учёт, единый налог, кадры, сопровождение проверок SFS. Индивидуальное предложение.">
+<!-- Превью ссылки (Viber, Telegram, WhatsApp, Facebook). Мессенджеры принимают только ПОЛНЫЙ адрес:
+     при публикации замените https://webonix-md.github.io/contabil-lx/ на реальный адрес сайта в og:url и og:image -->
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:locale:alternate" content="ro_RO">
+<meta property="og:site_name" content="CONTABIL">
+<meta property="og:title" content="Бухгалтерия для резидентов Moldova IT Park — CONTABIL">
+<meta property="og:description" content="Полная бухгалтерия для IT-компаний: регистрация, учёт, единый налог и кадры. Мы занимаемся цифрами — вы сосредотачиваетесь на инновациях.">
+<meta property="og:url" content="https://webonix-md.github.io/contabil-lx/">
+<meta property="og:image" content="https://webonix-md.github.io/contabil-lx/img/og/og-square-ru.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="1200">
+<meta property="og:image:alt" content="CONTABIL: «Вы пишете код. Мы сводим баланс.» Бухгалтерия для резидентов Moldova IT Park">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="img/logo/favicon.svg" type="image/svg+xml">
+<link rel="alternate" hreflang="ro" href="ro.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://images.unsplash.com">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- ============ Шапка ============ -->
+<header class="header" id="header">
+  <div class="wrap header__row">
+    <a class="header__logo" href="#top" aria-label="CONTABIL — на главную"><img src="img/logo/contabil-logo-inverse.svg" alt="CONTABIL" width="176" height="40"></a>
+    <nav class="nav" id="nav" aria-label="Основное меню">
+      <a href="#start">IT Park</a>
+      <a href="#services">Услуги</a>
+      <a href="#clients">С кем работаем</a>
+      <a href="#price">Цена</a>
+      <a href="#faq">Вопросы</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+    <div class="header__meta">
+      <span class="lang mono" aria-label="Язык сайта"><a class="is-active" href="index.html" hreflang="ru" aria-current="true">RU</a><a href="ro.html" hreflang="ro" lang="ro">RO</a></span>
+      <a class="header__phone" data-phone href="tel:+37369000000">+373 69 000 000</a>
+      <button class="burger" id="burger" aria-label="Открыть меню" aria-expanded="false" aria-controls="nav"><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- ============ 1. Первый экран ============ -->
+<section class="hero photo-bg photo-fixed" data-photo="hero">
+  <div class="wrap hero__grid">
+    <div>
+      <p class="comment mono">// бухгалтерия для резидентов Moldova IT Park</p>
+      <h1 class="hero__title">Вы пишете код.<br><span>Мы сводим баланс.</span></h1>
+      <p class="hero__lead">Полная бухгалтерия для IT-компаний: регистрация, учёт, единый налог и кадры. Мы занимаемся цифрами — вы сосредотачиваетесь на инновациях.</p>
+      <div class="doors">
+        <a class="door door--primary" href="#door-new"><small>new_company</small><strong>Хочу открыть компанию →</strong></a>
+        <a class="door" href="#door-existing"><small>existing_srl</small><strong>У меня уже есть SRL →</strong></a>
+      </div>
+      <p class="hero__call">Или сразу позвоните: <a data-phone href="tel:+37369000000">+373 69 000 000</a></p>
+    </div>
+
+    <div>
+      <div class="term" aria-label="Пример статуса компании на обслуживании">
+        <div class="term__bar"><i></i><i></i><i></i><span class="mono">contabil — status</span></div>
+        <div class="term__body" id="heroTerm">
+          <div class="term__line"><span class="t-prompt">$</span> contabil status --company "Your SRL"</div>
+          <div class="term__line"><span class="t-dim">──────────────────────────────</span></div>
+          <div class="term__line"><span class="t-key">rezident IT Park  </span> <span class="t-ok">✓ активен</span></div>
+          <div class="term__line"><span class="t-key">единый налог      </span> 7%</div>
+          <div class="term__line"><span class="t-key">payroll · месяц   </span> <span class="t-ok">✓ рассчитан</span></div>
+          <div class="term__line"><span class="t-key">отчёты в SFS      </span> <span class="t-ok">✓ сданы вовремя</span></div>
+          <div class="term__line"><span class="t-key">дела сотрудников  </span> <span class="t-ok">✓ оформлены</span></div>
+          <div class="term__line"><span class="t-dim">──────────────────────────────</span></div>
+          <div class="term__line"><span class="t-ok">✓ all good.</span> <span class="t-dim">Можно работать дальше.</span> <span class="cursor"></span></div>
+        </div>
+      </div>
+      <div class="stats">
+        <div class="stat"><b>7%</b><span>единый налог</span></div>
+        <div class="stat"><b>A–Z</b><span>учёт под ключ</span></div>
+        <div class="stat"><b>HR</b><span>дела сотрудников</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 2. Две двери ============ -->
+<section class="section light has-deco" id="start">
+  <!-- Фоновые SVG-иконки (декор). Чтобы убрать — удалите этот div и класс has-deco -->
+  <div class="deco" aria-hidden="true">
+    <!-- Калькулятор -->
+    <svg class="deco__calc" viewBox="0 0 120 160"><rect x="4" y="4" width="112" height="152" rx="12"/><rect x="16" y="16" width="88" height="34" rx="4"/><path d="M78 40h18M88 26v0"/><rect x="16" y="62" width="18" height="18" rx="3"/><rect x="40" y="62" width="18" height="18" rx="3"/><rect x="64" y="62" width="18" height="18" rx="3"/><rect x="88" y="62" width="18" height="18" rx="3"/><rect x="16" y="86" width="18" height="18" rx="3"/><rect x="40" y="86" width="18" height="18" rx="3"/><rect x="64" y="86" width="18" height="18" rx="3"/><rect x="88" y="86" width="18" height="42" rx="3"/><rect x="16" y="110" width="18" height="18" rx="3"/><rect x="40" y="110" width="18" height="18" rx="3"/><rect x="64" y="110" width="18" height="18" rx="3"/><rect x="16" y="134" width="42" height="14" rx="3"/><rect x="64" y="134" width="42" height="14" rx="3"/><path d="M92 97h6M95 94v6M92 119h6"/></svg>
+    <!-- Кассовый чек -->
+    <svg class="deco__receipt" viewBox="0 0 120 170"><path d="M10 6h100v144l-10 10-10-10-10 10-10-10-10 10-10-10-10 10-10-10-10 10-10-10z"/><path d="M26 28h68M26 46h44M78 46h16M26 62h52M84 62h10M26 78h36M70 78h24M26 94h48M82 94h12"/><path d="M26 116h68M26 122h68"/><path d="M26 136h24M78 136h16"/></svg>
+    <!-- Знак баланса «=» -->
+    <svg class="deco__equals" viewBox="0 0 120 120"><circle cx="60" cy="60" r="56"/><rect x="30" y="42" width="60" height="10" rx="2"/><rect x="30" y="68" width="60" height="10" rx="2"/></svg>
+  </div>
+  <div class="wrap">
+    <p class="comment mono">// выберите свою ситуацию</p>
+    <h2 class="section__title">С чего начнём?</h2>
+
+    <div class="paths" data-converge>
+      <article class="path path--new" id="door-new">
+        <header class="path__head">
+          <span class="path__tag mono">new_company</span>
+          <h3>Открываю компанию</h3>
+          <p>Ещё нет SRL или оно только зарегистрировано. Проведём шаг за шагом: от регистрации в ASP до статуса резидента IT Park.</p>
+        </header>
+        <ol class="steps">
+          <li><b class="mono">01</b><div><strong>Консультация и предложение</strong><span>Разбираем вашу ситуацию и готовим индивидуальное предложение под вашу компанию.</span></div></li>
+          <li><b class="mono">02</b><div><strong>Регистрация SRL в ASP</strong><span>Регистрируем компанию в ASP и ведём вас шаг за шагом.</span></div></li>
+          <li><b class="mono">03</b><div><strong>Вступление в IT Park</strong><span>Регистрируем компанию в IT Park и настраиваем учёт под единый налог.</span></div></li>
+          <li><b class="mono">04</b><div><strong>Учёт с первого месяца</strong><span>Внутренние учётные и налоговые процедуры, настроенные под IT-компанию.</span></div></li>
+        </ol>
+        <a class="btn btn--teal" data-phone href="tel:+37369000000">Получить консультацию</a>
+      </article>
+
+      <article class="path path--existing" id="door-existing">
+        <header class="path__head">
+          <span class="path__tag mono">existing_srl</span>
+          <h3>Уже резидент IT Park</h3>
+          <p>Компания работает, но учёт хочется передать в надёжные руки. Берём на себя бухгалтерию и налоги.</p>
+        </header>
+        <ol class="steps">
+          <li><b class="mono">01</b><div><strong>Звонок или сообщение</strong><span>Коротко рассказываете о компании: сфера, число сотрудников, текущий бухгалтер.</span></div></li>
+          <li><b class="mono">02</b><div><strong>Смотрим, в каком состоянии учёт</strong><span>Отвечаем на вопросы и называем стоимость обслуживания для вашей компании.</span></div></li>
+          <li><b class="mono">03</b><div><strong>Принимаем дела</strong><span>Забираем документы и доступы у прежнего бухгалтера — без остановки работы.</span></div></li>
+          <li><b class="mono">04</b><div><strong>Дальше — наша забота</strong><span>Учёт, зарплаты и отчёты в SFS — вовремя, каждый месяц.</span></div></li>
+        </ol>
+        <a class="btn btn--outline" data-phone href="tel:+37369000000">Обсудить переход</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 3. Что входит ============ -->
+<section class="section section--alt photo-bg photo-fixed" id="services" data-photo="hero">
+  <div class="wrap services">
+    <div class="services__visual">
+      <p class="comment mono">// services.list</p>
+      <h2 class="section__title">Всё, что нужно компании-резиденту, — в&nbsp;одном договоре</h2>
+      <p class="services__note">Мы занимаемся цифрами — вы сосредотачиваетесь на развитии и инновациях.</p>
+    </div>
+
+    <ul class="services__list" data-fly-in>
+      <li class="service">
+        <span class="service__icon mono">[01]</span>
+        <div><h3>Бухгалтерский учёт</h3><p>Финансовый и управленческий учёт, баланс, ежемесячные и квартальные отчёты.</p></div>
+      </li>
+      <li class="service">
+        <span class="service__icon mono">[02]</span>
+        <div><h3>Налоги и отчётность</h3><p>Корректный расчёт единого налога IT, декларации, платежи и отчётность.</p></div>
+      </li>
+      <li class="service">
+        <span class="service__icon mono">[03]</span>
+        <div><h3>Payroll</h3><p>Зарплаты, отпускные, больничные — для команды из двух человек или из нескольких десятков.</p></div>
+      </li>
+      <li class="service">
+        <span class="service__icon mono">[04]</span>
+        <div><h3>Кадры (HR)</h3><p>Личное дело на каждого сотрудника-резидента: договоры, CIM, зарплатные документы.</p></div>
+      </li>
+      <li class="service">
+        <span class="service__icon mono">[05]</span>
+        <div><h3>Проверки SFS</h3><p>Сопровождаем при проверках Государственной налоговой службы.</p></div>
+      </li>
+      <li class="service">
+        <span class="service__icon mono">[06]</span>
+        <div><h3>Регистрация и IT Park</h3><p>Регистрация компании в ASP и в IT Park, изменения в учредительных документах.</p></div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============ 4. С кем работаем ============ -->
+<section class="section light has-deco" id="clients">
+  <!-- Фоновые SVG-иконки (декор). Чтобы убрать — удалите этот div и класс has-deco -->
+  <div class="deco" aria-hidden="true">
+    <!-- Круговая диаграмма -->
+    <svg class="deco__pie" viewBox="0 0 120 120"><circle cx="60" cy="60" r="52"/><path d="M60 60V8M60 60l44.2 27.4M60 60 18.6 91.4"/><path d="M66 54V4a56 56 0 0 1 48.6 80.6z"/><circle cx="60" cy="60" r="22"/></svg>
+    <!-- Столбики графика -->
+    <svg class="deco__bars" viewBox="0 0 160 120"><path d="M6 114h148M6 6v108"/><rect x="20" y="74" width="20" height="40" rx="2"/><rect x="50" y="54" width="20" height="60" rx="2"/><rect x="80" y="64" width="20" height="50" rx="2"/><rect x="110" y="30" width="20" height="84" rx="2"/><path d="M22 60 58 40l32 12 42-36"/><path d="M122 16h10v10"/></svg>
+  </div>
+  <div class="wrap">
+    <p class="comment mono">// clients.filter(industry)</p>
+    <h2 class="section__title">С кем работаем</h2>
+    <p class="section__lead">IT-компании и резиденты Moldova IT Park — а также бизнес из других сфер.</p>
+
+    <div class="clients" data-dossier>
+      <article class="client client--featured photo-bg" data-photo="clients">
+        <span class="client__badge mono">наша ниша</span>
+        <h3>IT-компании и резиденты IT Park</h3>
+        <p>Полная бухгалтерия для tech-сектора: единый налог, кадры резидентов, внутренние процедуры, налоговые консультации и аудит.</p>
+        <a class="link-arrow" href="#price">Посчитать стоимость →</a>
+      </article>
+      <article class="client">
+        <span class="client__code mono">&lt;/&gt;</span>
+        <h3>Стартапы</h3>
+        <p>Регистрация с нуля и учёт с первого месяца.</p>
+      </article>
+      <article class="client">
+        <span class="client__code mono">#5DCAA5</span>
+        <h3>Бизнес вне IT</h3>
+        <p>Полная бухгалтерия и кадры для компаний из других сфер.</p>
+      </article>
+      <article class="client">
+        <span class="client__code mono">*.*</span>
+        <h3>Изменения в компании</h3>
+        <p>Изменения в учредительных документах — подготовим и подадим.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 5. Цена ============ -->
+<section class="section section--alt photo-bg photo-fixed" id="price" data-photo="hero">
+  <div class="wrap price">
+    <div class="price__intro">
+      <p class="comment mono">// сколько стоит</p>
+      <h2 class="section__title">Индивидуальное предложение под&nbsp;вашу компанию</h2>
+      <p class="section__lead">Стоимость зависит от объёма работы и числа сотрудников. Двигайте ползунок — калькулятор покажет ориентир, а точное предложение подготовим под вашу компанию.</p>
+
+      <ul class="free">
+        <li><span>Бухгалтерия для IT-компаний</span><b class="mono">от 1 500 MDL</b></li>
+        <li><span>Бухгалтерия для других сфер</span><b class="mono">от 1 000 MDL</b></li>
+        <li><span>Сопровождение проверок SFS</span><b class="mono">✓</b></li>
+      </ul>
+    </div>
+
+    <div class="calc">
+      <div class="term">
+        <div class="term__bar"><i></i><i></i><i></i><span class="mono">contabil — price</span></div>
+        <div class="term__body term__body--calc">
+          <label class="calc__label" for="employees">
+            <span>Сотрудников в компании</span>
+            <output class="calc__count mono" id="employeesOut" for="employees">5</output>
+          </label>
+          <input class="calc__range" type="range" id="employees" min="1" max="50" step="1" value="5">
+          <div class="calc__scale mono"><span>1</span><span>25</span><span>50</span></div>
+
+          <div class="calc__out mono" aria-live="polite">
+            <div><span class="t-prompt">$</span> contabil price --employees <span id="cmdEmployees">5</span></div>
+            <div class="t-dim">──────────────────────────────</div>
+            <div class="calc__row"><span class="t-key">учёт и отчётность</span><span id="rowBase">1 500 MDL</span></div>
+            <div class="calc__row"><span class="t-key">payroll и кадры <span class="t-dim" id="rowExtraLabel">(+4 чел.)</span></span><span id="rowExtra">1 600 MDL</span></div>
+            <div class="calc__row"><span class="t-key">единый налог 7%</span><span class="t-ok">✓ расчёт</span></div>
+            <div class="t-dim">──────────────────────────────</div>
+            <div class="calc__total"><span>≈</span><b id="total">3 100</b><span>MDL / мес</span></div>
+          </div>
+          <p class="calc__note">Ориентировочно. На стоимость влияют также объём операций и специфика деятельности.</p>
+        </div>
+      </div>
+      <a class="btn btn--teal btn--block" data-phone href="tel:+37369000000">Узнать точную цену — позвонить</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 6. Почему мы ============ -->
+<section class="section light has-deco" id="why">
+  <!-- Фоновые SVG-иконки (декор). Чтобы убрать — удалите этот div и класс has-deco -->
+  <div class="deco" aria-hidden="true">
+    <!-- «7%» — единый налог IT Park -->
+    <svg class="deco__percent" viewBox="0 0 220 120"><path d="M12 14h64L36 108"/><circle cx="122" cy="36" r="18"/><circle cx="186" cy="88" r="18"/><path d="M198 14 110 108"/></svg>
+    <!-- Знак суммы Σ -->
+    <svg class="deco__sigma" viewBox="0 0 100 120"><path d="M88 22V8H10l42 52-42 52h78V98"/></svg>
+    <!-- Стопка монет -->
+    <svg class="deco__coins" viewBox="0 0 120 120"><ellipse cx="60" cy="24" rx="44" ry="14"/><path d="M16 24v18c0 7.7 19.7 14 44 14s44-6.3 44-14V24"/><path d="M16 42v18c0 7.7 19.7 14 44 14s44-6.3 44-14V42"/><path d="M16 60v18c0 7.7 19.7 14 44 14s44-6.3 44-14V60"/><path d="M16 78v18c0 7.7 19.7 14 44 14s44-6.3 44-14V78"/></svg>
+  </div>
+  <div class="wrap">
+    <p class="comment mono">// why.contabil</p>
+    <h2 class="section__title">Почему нам доверяют учёт</h2>
+    <div class="why">
+      <article class="why__item">
+        <b class="why__num">7%</b>
+        <h3>единый налог</h3>
+        <p>Корректно считаем единый налог IT и знаем режим резидента.</p>
+      </article>
+      <article class="why__item">
+        <b class="why__num">A–Z</b>
+        <h3>учёт под ключ</h3>
+        <p>От регистрации в ASP и IT Park до деклараций, платежей и отчётов.</p>
+      </article>
+      <article class="why__item why__item--accent">
+        <b class="why__num">SFS</b>
+        <h3>сопровождение проверок</h3>
+        <p>Не оставляем вас одних при проверках Государственной налоговой службы.</p>
+        <span class="stamp mono" aria-hidden="true">всё<br>сходится</span>
+        <!-- «Ставим печать при вас»: тень и сам штамп (анимация — main.js, блок «Печать») -->
+        <span class="stamper-shadow" aria-hidden="true"></span>
+        <!-- Штамп рисуется скриптом (main.js, «Печать»). data-tilt — угол взгляда сверху в градусах:
+             0 — строго сбоку, 35 — три четверти, 60–70 — почти сверху, ручка смотрит на вас -->
+        <span class="stamper" aria-hidden="true" data-tilt="50"></span>
+      </article>
+      <article class="why__item">
+        <b class="why__num">1:1</b>
+        <h3>индивидуальное предложение</h3>
+        <p>Решения под специфику вашего бизнеса, быстрая и понятная коммуникация.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 7. Вопросы про IT Park ============ -->
+<section class="section section--alt light" id="faq">
+  <div class="wrap faq">
+    <div class="faq__intro">
+      <p class="comment mono">// faq --topic "IT Park"</p>
+      <h2 class="section__title">Вопросы про IT&nbsp;Park</h2>
+      <p class="section__lead">Не нашли свой вопрос? Позвоните — ответим и подготовим предложение.</p>
+      <a class="btn btn--outline" data-phone href="tel:+37369000000">Задать вопрос</a>
+    </div>
+
+    <div class="faq__list">
+      <details class="qa" open>
+        <summary>Кто может стать резидентом Moldova IT Park?</summary>
+        <p>Компании, зарегистрированные в Молдове, у которых основной доход — от видов деятельности из списка парка: разработка ПО, IT-услуги, дизайн, колл-центры и другие. Подойдёт ли ваша деятельность — скажем на консультации.</p>
+      </details>
+      <details class="qa">
+        <summary>Что такое единый налог 7%?</summary>
+        <p>Резиденты платят один налог — 7% от оборота, но не меньше минимальной суммы на каждого сотрудника (она привязана к средней зарплате по экономике). Этот налог заменяет налог на прибыль, подоходный налог с зарплат, взносы и ряд других платежей.</p>
+      </details>
+      <details class="qa">
+        <summary>Можно ли вступить, если компания только открывается?</summary>
+        <p>Да. Зарегистрируем компанию в ASP и в IT Park и проведём вас шаг за шагом.</p>
+      </details>
+      <details class="qa">
+        <summary>Сколько времени занимает вступление?</summary>
+        <p>Зависит от готовности документов и рассмотрения заявки администрацией парка. Реалистичные сроки для вашего случая назовём на консультации.</p>
+      </details>
+      <details class="qa">
+        <summary>Поможете при проверке налоговой?</summary>
+        <p>Да, сопровождаем при проверках Государственной налоговой службы (SFS).</p>
+      </details>
+      <details class="qa">
+        <summary>Можно перейти к вам от другого бухгалтера посреди года?</summary>
+        <p>Да. Принимаем документы и доступы у прежнего бухгалтера и продолжаем учёт без остановки работы компании.</p>
+      </details>
+      <details class="qa">
+        <summary>Сколько стоит обслуживание?</summary>
+        <p>Для IT-компаний — от 1 500 MDL в месяц, для других сфер — от 1 000 MDL; точная цена зависит от объёма работы. Ориентировочную сумму покажет <a href="#price">калькулятор</a>, точную — назовём после разговора.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 8. Контакты ============ -->
+<section class="contacts photo-bg photo-fixed" id="contacts" data-photo="hero">
+  <div class="wrap contacts__grid">
+    <div>
+      <p class="comment mono">// contact --now</p>
+      <h2 class="section__title">Позвоните — обсудим вашу ситуацию</h2>
+      <p class="section__lead">Подготовим индивидуальное предложение. Удобнее писать — пишите в Viber, WhatsApp, Telegram или на почту.</p>
+      <a class="contacts__phone" data-phone href="tel:+37369000000">+373 69 000 000</a>
+      <div class="messengers">
+        <a class="msg" data-msg="telegram" href="#" target="_blank" rel="noopener">Telegram</a>
+        <a class="msg" data-msg="whatsapp" href="#" target="_blank" rel="noopener">WhatsApp</a>
+        <a class="msg" data-msg="viber" href="#">Viber</a>
+      </div>
+    </div>
+
+    <div class="office">
+      <div class="office__map" role="img" aria-label="Карта: офис в Кишинёве (заглушка)">
+        <span class="office__pin" aria-hidden="true"></span>
+        <span class="office__map-note mono">карта появится после согласования адреса</span>
+      </div>
+      <div class="office__info">
+        <h3>Офис в <span data-office="city">Кишинёве</span></h3>
+        <p data-office="address">Адрес офиса — уточняется</p>
+        <p class="mono" data-office="hours">Пн–Пт, 9:00–18:00</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap footer__row">
+    <img src="img/logo/contabil-logo-inverse.svg" alt="CONTABIL" width="140" height="32">
+    <p>Бухгалтерия для резидентов Moldova IT Park · Кишинёв</p>
+    <p class="mono footer__demo">© 2026 · демо-концепт</p>
+  </div>
+</footer>
+
+<!-- Кнопка звонка на телефоне -->
+<a class="callbar" data-phone href="tel:+37369000000"><span>Позвонить бухгалтеру</span><b class="mono">→</b></a>
+
+<!-- SVG-фильтр «мастика»: неровные края оттиска печати -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <filter id="ink-rough" x="-10%" y="-10%" width="120%" height="120%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" seed="7" result="noise"/>
+    <feDisplacementMap in="SourceGraphic" in2="noise" scale="2.2" xChannelSelector="R" yChannelSelector="G"/>
+  </filter>
+</svg>
+
+<script src="js/site-data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
